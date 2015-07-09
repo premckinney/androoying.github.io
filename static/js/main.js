@@ -80,22 +80,6 @@ function transformHeader() {
  }
 
 // *******************************************
-// RANDOM FEATURE GENERATOR
-// ******************************************/
-
-function randomFeature() {
-	features = ['Sk8er Boi was a pretty good song',
-				'Did somebody say \'fonts\'',
-				'(bird noises)',
-				'Moving is very difficult'];
-	max = features.length;
-	i = Math.floor(Math.random() * max);
-	result = features[i];
-
-	$('.feature-header').text(result);
-}
-
-// *******************************************
 // SMOOTH SCROLLING
 // https://css-tricks.com/snippets/jquery/smooth-scrolling/
 // ******************************************/
@@ -165,7 +149,6 @@ function validateInput(name, message) {
 
 $(document).ready(function() {
 	heroHeight();
-	randomFeature();
 	retina();
 	headerStyle();
 	sendMessage();
