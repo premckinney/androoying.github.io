@@ -1071,10 +1071,10 @@ h6 {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #83e7f5; }
+  background-color: #d6dadf; }
 
 .hero {
-  height: 50vh;
+  height: 100vh;
   background-position: center center;
   background-image: url(../images/ay.jpg); }
 
