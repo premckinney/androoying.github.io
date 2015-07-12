@@ -201,9 +201,9 @@ body {
   height: 4rem;
   width: 5rem;
   background-color: #fff;
-  mask-image: url(../images/down.svg);
-  -webkit-mask-image: url(../images/down.svg);
-  mask: url(../images/down.svg); }
+  mask-image: url(../photos/down.svg);
+  -webkit-mask-image: url(../photos/down.svg);
+  mask: url(../photos/down.svg); }
 
 .down-arrow:hover {
   background-color: #000;
