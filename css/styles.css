@@ -190,6 +190,36 @@ body {
     float: right;
     margin-bottom: 0; } }
 	
+/* ===== DOWN ARROW ===== */
+.down-arrow {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  height: 4rem;
+  width: 5rem;
+  background-color: #fff;
+  mask-image: url(../images/down.svg);
+  -webkit-mask-image: url(../images/down.svg);
+  mask: url(../images/down.svg); }
+
+.down-arrow:hover {
+  background-color: #000;
+  /* 7e9bab */ }
+
+/****************************************
+* MAIN
+****************************************/
+/* ===== DIVIDER ===== */
+.divider-full, .divider-part, .article-body hr {
+  border-top: 1px solid #ecf0f1;
+  margin: 3rem auto; }
+
+.divider-part, .article-body hr {
+  width: 65%; }
+
 /****************************************
 * HERO
 ****************************************/
@@ -203,9 +233,9 @@ body {
   background-color: #d6dadf; }
 
 .hero {
-  height: 100vh;
+  height: 200vh;
   background-position: center center;
-  background-image: url(../photos/jumbotron.jpg); }
+  background-image: url(../photos/hero.jpg); }
 
 .about-hero {
   height: 75vh;
