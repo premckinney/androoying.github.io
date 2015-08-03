@@ -80,11 +80,6 @@ function transformHeader() {
  }
 
 // *******************************************
-// RANDOM FEATURE GENERATOR
-// ******************************************/
-
-
-// *******************************************
 // SMOOTH SCROLLING
 // https://css-tricks.com/snippets/jquery/smooth-scrolling/
 // ******************************************/
@@ -153,9 +148,6 @@ function validateInput(name, message) {
 // ******************************************/
 
 $(document).ready(function() {
-	heroHeight();
-	randomFeature();
 	retina();
-	headerStyle();
 	sendMessage();
 });
