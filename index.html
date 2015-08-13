@@ -3,13 +3,21 @@
 <html>
 	<head>
     	<title>Andrew Ying</title>
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/photos/favicon.ico">
-        <link href = "css/bootstrap.min.css" rel = "stylesheet">
+        
+        <!-- Mobile support -->
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        
+        <!-- Twitter Bootstrap -->
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Material Design for Bootstrap -->
         <link href = "css/styles.css" rel = "stylesheet">
+        <link href="css/roboto.min.css" rel="stylesheet">
         <link href = "css/material.min.css" rel = "stylesheet">
         <link href = "css/ripples.min.css" rel = "stylesheet">
-        <link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic|Montserrat|Raleway:400,500,700,600" rel="stylesheet" type="text/css">
+        
+        <!-- Font-Awesome Setup -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
         
@@ -93,12 +101,16 @@
     
     
     	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    	<script src = "js/bootstrap.js"></script>
+    	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="/js/material.min.js"></script>
     	<script src="/js/ripples.min.js"></script>
-    	<script>
-     	 $.material.init();
-    	</script>
+    	 <script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
+        </script>
+        
 	</body>
 
 </html>
