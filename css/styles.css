@@ -272,7 +272,8 @@ h6 {
     float: right; }
 
   .header-title {
-    font-size: 2.6rem; }
+    font-size: 2.6rem; 
+	}
 
   .header-nav li {
     font-size: 1.6rem; } }
