@@ -119,7 +119,7 @@ function sendMessage() {
 			var emailID = "entry.52027613";
 			var msgID = "entry.1707629466";
 
-			var baseURL = 'https://docs.google.com/a/andrewying.org/forms/d/16MaYAq3ZwuNORWhSBIS1PF5rtnbOFGsNa3cKHLYulco/formResponse?';
+			var baseURL = 'https://docs.google.com/forms/d/16MaYAq3ZwuNORWhSBIS1PF5rtnbOFGsNa3cKHLYulco/formResponse?';
 
 			var submitRef = '&submit=Submit';
 			var submitURL = (baseURL + nameID + "=" + name + "&" + emailID + "=" + email + "&" + msgID + "=" + msg + submitRef);
