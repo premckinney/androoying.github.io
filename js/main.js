@@ -119,7 +119,7 @@ function sendMessage() {
 			var emailID = "entry.52027613";
 			var msgID = "entry.1707629466";
 
-			var baseURL = 'https://docs.google.com/forms/d/1TqxOQM8I5YaKPpa0lmPZQbfeXmfe7nd8bHIpBUEsZg8/viewform?usp=send_form';
+			var baseURL = 'https://docs.google.com/forms/d/1lfeQpxS-Pj8GVQGkmRoC166adx4djufinskeB9F0zoU/formResponse?';
 
 			var submitRef = '&submit=Submit';
 			var submitURL = (baseURL + nameID + "=" + name + "&" + emailID + "=" + email + "&" + msgID + "=" + msg + submitRef);
