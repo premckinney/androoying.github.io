@@ -148,6 +148,8 @@ function validateInput(name, message) {
 // ******************************************/
 
 $(document).ready(function() {
+	heroHeight();
 	retina();
+	headerStyle();
 	sendMessage();
 });
