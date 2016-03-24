@@ -100,7 +100,7 @@ function sendMessage() {
     $('#contact').submit(function (e) {
       e.preventDefault();
       $.ajax({
-        url: '//formspree.io/sarah@sarahlim.com',
+        url: '//formspree.io/andrew@andrewying.org',
         method: 'POST',
         data: $(this).serialize(),
         dataType: 'json',
