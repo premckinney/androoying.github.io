@@ -1,3 +1,3 @@
-# sarahlim.com
+# andrewying.org
 
-This is the personal website of [Sarah Lim](http://sarahlim.com), powered by GitHub Pages and [HarpJS](http://harpjs.com/).
+This is the personal website of [Andrew Ying](http://andrewying.org), powered by GitHub Pages and [HarpJS](http://harpjs.com/).
