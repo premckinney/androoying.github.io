@@ -44,7 +44,7 @@ function retina() {
 function heroHeight() {
   function setHeight() {
     var WindowHeight = $(window).innerHeight();
-    var AboutHeight = WindowHeight * 0.75;
+    var AboutHeight = WindowHeight * 0.82;
     $('.hero').css('min-height', WindowHeight);
     $('.about-hero').css('min-height', AboutHeight);
   };
