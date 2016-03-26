@@ -7,10 +7,14 @@
     },
     "index": {
         "title": "Andrew Ying"
+        "headerInverted": true
     },
     "about": {
         "title": "About",
         "headerInverted": true
+    },
+    "honors": {
+      "headerInverted": true  
     },
     "contact": {
         "title": "Contact"
